@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA10F04625C315A60019B460 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10F04525C315A60019B460 /* CustomButton.swift */; };
+		FA88AC6C25C336C700A32E62 /* UsedShoeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88AC6B25C336C700A32E62 /* UsedShoeCell.swift */; };
+		FA8F873F25C322FA00C5A0CB /* TopShoeCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F873E25C322FA00C5A0CB /* TopShoeCells.swift */; };
+		FA8F874525C3231900C5A0CB /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F874425C3231900C5A0CB /* Shoe.swift */; };
+		FA8F874A25C3245B00C5A0CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F874925C3245B00C5A0CB /* Constants.swift */; };
+		FA9AEE9025C4730C001A15C8 /* ShoeDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AEE8F25C4730C001A15C8 /* ShoeDescriptionController.swift */; };
+		FADB520C25C9BD57004C3A61 /* PurchaseCompleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB520B25C9BD57004C3A61 /* PurchaseCompleteController.swift */; };
+		FADDA51925C478B600A2AA03 /* ShopTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDA51825C478B600A2AA03 /* ShopTable.swift */; };
+		FADDA51E25C478E600A2AA03 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDA51D25C478E600A2AA03 /* ShopController.swift */; };
+		FADDA52425C4793400A2AA03 /* SHOES.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDA52325C4793400A2AA03 /* SHOES.swift */; };
 		FAFB0B9025C1EDAF009121CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB0B8F25C1EDAF009121CD /* AppDelegate.swift */; };
 		FAFB0B9225C1EDAF009121CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB0B9125C1EDAF009121CD /* SceneDelegate.swift */; };
 		FAFB0B9425C1EDAF009121CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB0B9325C1EDAF009121CD /* ViewController.swift */; };
@@ -36,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA10F04525C315A60019B460 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FA88AC6B25C336C700A32E62 /* UsedShoeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedShoeCell.swift; sourceTree = "<group>"; };
+		FA8F873E25C322FA00C5A0CB /* TopShoeCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShoeCells.swift; sourceTree = "<group>"; };
+		FA8F874425C3231900C5A0CB /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		FA8F874925C3245B00C5A0CB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA9AEE8F25C4730C001A15C8 /* ShoeDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeDescriptionController.swift; sourceTree = "<group>"; };
+		FADB520B25C9BD57004C3A61 /* PurchaseCompleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCompleteController.swift; sourceTree = "<group>"; };
+		FADDA51825C478B600A2AA03 /* ShopTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTable.swift; sourceTree = "<group>"; };
+		FADDA51D25C478E600A2AA03 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		FADDA52325C4793400A2AA03 /* SHOES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHOES.swift; sourceTree = "<group>"; };
 		FAFB0B8C25C1EDAF009121CD /* Shoe-Shock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoe-Shock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFB0B8F25C1EDAF009121CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFB0B9125C1EDAF009121CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +98,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA10F03425C3026B0019B460 /* custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA10F04525C315A60019B460 /* CustomButton.swift */,
+			);
+			path = "custom Views";
+			sourceTree = "<group>";
+		};
+		FA88AC7025C3406A00A32E62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA88AC7125C3406F00A32E62 /* CollectionControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA88AC7125C3406F00A32E62 /* CollectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AEE8F25C4730C001A15C8 /* ShoeDescriptionController.swift */,
+				FAFB0B9325C1EDAF009121CD /* ViewController.swift */,
+				FADDA51D25C478E600A2AA03 /* ShopController.swift */,
+				FADB520B25C9BD57004C3A61 /* PurchaseCompleteController.swift */,
+			);
+			path = CollectionControllers;
+			sourceTree = "<group>";
+		};
+		FA8F873D25C322D600C5A0CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FADDA51825C478B600A2AA03 /* ShopTable.swift */,
+				FAD1499725C45AD500A83DCC /* newTry */,
+				FA8F873E25C322FA00C5A0CB /* TopShoeCells.swift */,
+				FA88AC6B25C336C700A32E62 /* UsedShoeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA8F874325C3230C00C5A0CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F874425C3231900C5A0CB /* Shoe.swift */,
+				FA8F874925C3245B00C5A0CB /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAD1499725C45AD500A83DCC /* newTry */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = newTry;
+			sourceTree = "<group>";
+		};
+		FADDA52225C4792200A2AA03 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				FADDA52325C4793400A2AA03 /* SHOES.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
 		FAFB0B8325C1EDAF009121CD = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +183,13 @@
 		FAFB0B8E25C1EDAF009121CD /* Shoe-Shock */ = {
 			isa = PBXGroup;
 			children = (
+				FADDA52225C4792200A2AA03 /* DataService */,
+				FA88AC7025C3406A00A32E62 /* Controllers */,
+				FA8F874325C3230C00C5A0CB /* Model */,
+				FA8F873D25C322D600C5A0CB /* Cells */,
+				FA10F03425C3026B0019B460 /* custom Views */,
 				FAFB0B8F25C1EDAF009121CD /* AppDelegate.swift */,
 				FAFB0B9125C1EDAF009121CD /* SceneDelegate.swift */,
-				FAFB0B9325C1EDAF009121CD /* ViewController.swift */,
 				FAFB0B9525C1EDAF009121CD /* Main.storyboard */,
 				FAFB0B9B25C1EDB2009121CD /* Assets.xcassets */,
 				FAFB0B9D25C1EDB2009121CD /* LaunchScreen.storyboard */,
@@ -261,10 +347,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADDA52425C4793400A2AA03 /* SHOES.swift in Sources */,
 				FAFB0B9425C1EDAF009121CD /* ViewController.swift in Sources */,
+				FADDA51E25C478E600A2AA03 /* ShopController.swift in Sources */,
 				FAFB0B9A25C1EDAF009121CD /* Shoe_Shock.xcdatamodeld in Sources */,
+				FADB520C25C9BD57004C3A61 /* PurchaseCompleteController.swift in Sources */,
+				FA8F874525C3231900C5A0CB /* Shoe.swift in Sources */,
+				FA9AEE9025C4730C001A15C8 /* ShoeDescriptionController.swift in Sources */,
+				FA8F873F25C322FA00C5A0CB /* TopShoeCells.swift in Sources */,
+				FA88AC6C25C336C700A32E62 /* UsedShoeCell.swift in Sources */,
 				FAFB0B9025C1EDAF009121CD /* AppDelegate.swift in Sources */,
 				FAFB0B9225C1EDAF009121CD /* SceneDelegate.swift in Sources */,
+				FA10F04625C315A60019B460 /* CustomButton.swift in Sources */,
+				FA8F874A25C3245B00C5A0CB /* Constants.swift in Sources */,
+				FADDA51925C478B600A2AA03 /* ShopTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
